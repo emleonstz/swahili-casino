@@ -14,6 +14,7 @@ You can try the DEMO through the link below
 
 - Adding more games
 - Adding animations
+- Try to learn how to make complex  fair RNG
 
 
 
