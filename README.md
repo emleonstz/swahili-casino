@@ -1,5 +1,5 @@
 
-# Kasino with PHP
+# Swahili Kasino with PHP
 
 A simple casino developed in PHP. It currently has only one game. I plan to add more games for learning purposes
 
