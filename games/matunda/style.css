@@ -1,0 +1,145 @@
+body {
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#real-board {
+
+}
+.card {
+  border-radius: 10px;
+  border: 8px solid #9e7248;
+  box-shadow: 0 0 10px #9e7248;
+  background-image: url(img/city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#real-board > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.reel {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/coin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.glow-orange {
+  animation: glow-orange 1s infinite alternate;
+}
+
+.glow-green {
+  animation: glow-green 1s infinite alternate;
+}
+
+@keyframes glow-orange {
+  0% {
+    box-shadow: 0 0 10px 5px orange;
+    border-color: transparent;
+  }
+  100% {
+    box-shadow: none;
+    border-color: orange;
+  }
+}
+
+@keyframes glow-green {
+  0% {
+    box-shadow: 0 0 10px 5px green;
+    border-color: transparent;
+  }
+  100% {
+    box-shadow: none;
+    border-color: green;
+  }
+}
+.fruits-image{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+#gitf{
+  font-family: "Namba", Arial, sans-serif;
+  color: red;
+  
+}
+.col {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+
+/* Define the keyframes for the animation */
+@keyframes glowing-border {
+  0% {
+    box-shadow: 0 0 3px rgba(231, 73, 25, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 2px rgba(46, 207, 6, 0.8), 0 0 5px rgba(238, 13, 219, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 4px rgba(4, 172, 238, 0.5);
+  }
+}
+@font-face {
+  font-family: 'Namba';
+  src: url('fonts/namba.ttf');
+}
+
+
+/* Apply the animation to the element with id "num-board" */
+#num-board {
+  animation: glowing-border 2s infinite;
+  border: 8px;
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+  background-image: url(img/num.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#num-board > h5 {
+  font-family: 'Namba', sans-serif;
+  margin-top: 10px;
+  font-weight: 500;
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+
+
+
+
+#reel-1  span,#reel-2  span,#reel-3  span,#reel-4  span,#reel-5  span,#reel-6  span,#reel-7  span,#reel-8  span,#reel-9  span{
+  background-color: aliceblue;
+  border-radius: 50px;
+  padding: 1px;
+  border: 4px solid #9e7248;
+}

@@ -1,0 +1,26 @@
+Gambling Tech algorithms
+========================
+
+## :book: Guide
+
+* [Guide](./README.md)
+* [Install](./install.md)
+* **[Algorithms](./algorithms.md)**
+
+
+## Algorithms
+
+> These are really fair algorithms!
+
+
+[Random](./random.md) - Generating random values.
+
+[FisherYatesShuffle](./FisherYatesShuffle.md) - The Fisher-Yates shuffle is an algorithm for generating a random permutation of a finite sequence.
+
+[ShiftedNumber](./ShiftedNumber.md) - Base value shifting by hash.
+
+[dice/RngTillHundred](./dice/RngTillHundred.md) - RNG algorithm for dice with provable fairness.
+
+<br>
+
+[Algorithms](https://github.com/nepster-web/gambling-tech/blob/main/docs/guide/algorithms.md) | [Go back](https://github.com/nepster-web/gambling-tech)
