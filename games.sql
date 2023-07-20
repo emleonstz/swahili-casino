@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 20, 2023 at 12:32 AM
+-- Generation Time: Jul 20, 2023 at 12:28 PM
 -- Server version: 10.5.19-MariaDB-0+deb11u2
 -- PHP Version: 7.4.33
 
@@ -32,13 +32,6 @@ CREATE TABLE `encrypt` (
   `private_key` text DEFAULT NULL,
   `public_key` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Dumping data for table `encrypt`
---
-
-INSERT INTO `encrypt` (`id`, `private_key`, `public_key`) VALUES
-(2, '-----BEGIN RSA PRIVATE KEY-----\r\nMIICXgIBAAKBgQCM+3hxesft94IVRhaaQxDImT6Q/GkpMtgq4Oj77pisHlbX8BWN\r\nz8w0RaD418LgIoVKSg3KrdI9oBxaVLkeY7vulI03pkiKZQ7GeVFKQyFDX67Z3Qzj\r\nM768tGAlExRcRx2OlPnWm+0fMY62ZPtXqwj1+KR3cs6BYImyFPX7O6gDWwIDAQAB\r\nAoGAM72Gsn8RKPCROSWD3hGG81fqcmNwZMJYO0RXvT4Poftwe8eM4YLFutli/nCR\r\nAJkqudz7usqYQi2kujIlzlVj/tsIbbh6X0iTXB2Zg5K7p+6FHrnaZI8ZpqxXqnkv\r\njAKdayBgCApV24xhTCcTu6v9pRyYqbSetG3U+6tD4Whh9IECQQDUrXQ2pcXRCDN8\r\n74s/ewJBcdgBpkOrNWWEF4M5twoilTxZP3JZPYoW8KT2cv0IXx3kHdRENwX3xTwh\r\nUeAUIeUrAkEAqbNOxcNMGpNGeCu/0g71hn3rhDJQ7NF8P+0cHR8bXnYJy42vH6tj\r\n3TdUkVEw33IaN4u4y9CQLgrR/rcWTFCikQJBAL9UuJs9MaSnOyLnoh9e+52C3LBH\r\nMtOA+y4FtSGkIPMRzTQBV08fhO60WcP5mNgCMjL5/u/LjIvmHf1f2jZic/cCQQCi\r\nfISdST0yaPfdko5NtHMU/ramUoM37fFZSFBV9fX/wWfpllUrLrElHJiFt8bi/F7r\r\n9oXP6XhUDZo6mNXp5n9xAkEAwnrYZcwSTPWxgtT59i4Bzs+Hh7KvroSV62P3tX2M\r\nRS7OofmCVHFEbIfjB96hOY9K0SC2U/JD5GOxn6LyBOhTIQ==\r\n-----END RSA PRIVATE KEY-----', '-----BEGIN PUBLIC KEY-----\r\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCM+3hxesft94IVRhaaQxDImT6Q\r\n/GkpMtgq4Oj77pisHlbX8BWNz8w0RaD418LgIoVKSg3KrdI9oBxaVLkeY7vulI03\r\npkiKZQ7GeVFKQyFDX67Z3QzjM768tGAlExRcRx2OlPnWm+0fMY62ZPtXqwj1+KR3\r\ncs6BYImyFPX7O6gDWwIDAQAB\r\n-----END PUBLIC KEY-----');
 
 -- --------------------------------------------------------
 
