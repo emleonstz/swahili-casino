@@ -18,7 +18,7 @@
     "require": {
         "ircmaxell/random-lib": "^1.2",
         "php": "^7.4",
-        "guzzlehttp/guzzle": "7.4",
+        "guzzlehttp/guzzle": "7.4.5",
         "clickalicious/rng": "^1.1",
         "hi-folks/rando-php": "^0.2.0",
         "nepster-web/gambling-tech": "dev-main"
