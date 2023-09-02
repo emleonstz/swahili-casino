@@ -7,7 +7,7 @@ A simple casino developed in PHP. It currently has only one game. I plan to add 
 ## Demo
 
 You can try the DEMO through the link below
-[DEMO](https://emleons.online/casino/games/)
+[DEMO](https://emleons.online/casino/games/) <br> User: 0956413200 password: qwerty
 
 
 ## TODO
