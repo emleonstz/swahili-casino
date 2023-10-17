@@ -105,7 +105,7 @@ $(document).ready(function () {
                           }else if(data.login === "blocked") {
                             Swal.fire({
                               title: "Kosa",
-                              text: "Umepigwa zuiliwa kutumia huduma hii tafadhali wasiliana na msimamizi",
+                              text: "Umezuiliwa kutumia huduma hii tafadhali wasiliana na msimamizi",
                               icon: "info",
                             });
                           }else if(data.login === "invalidpassword") {
